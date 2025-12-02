@@ -6,6 +6,47 @@
      <title>Culturama formulario</title>
 </head>
 <body>
-     
+     <header>
+          <h1>Pesquisa Online</h1>
+
+     </header>
+     <section>
+          <form action="" method="get"> <!--get fica visivel na url, e post fica no back end-->
+               <fieldset> <!--agrupa-->
+                    <!--DADOS PESSOAIS-->
+                    <legend>Dados Pessoais</legend> <!--legenda-->
+               
+               <label for="userName">Nome e Sobrenome:
+               <input type="text" name="userName" id="" required>
+               </label> <br>
+               
+
+               <label for="userAge">Idade:
+               <input type="number" name="userAge id=""  min="12" max="100" required>
+               </label> <br>
+
+               <label for="birthDate">Data de Nascimento:
+               <input type="date" name="birthDate" id="">
+               </label> <br>
+
+                <label for="userEmail">Email:
+               <input type="email" name="userEmail" id="" required>
+               </label> <br>
+
+               <label for="userPhoneNumber">Telefone:
+               <input type="tel" name="userPhoneNumber" id="" pattern="[0-9]{11}" placeholder="11111111111"> <!--[quais numeros sao aceitos] {quantidade de numeros}-->
+               </label> <br>
+
+               <label for="userImage"> Upload de Foto
+               <input type="file" name="userImage" id="" accept="image/*">
+               </label> <br>
+               </fieldset>
+
+
+
+               <button type="submit">Enviar</button> <!--submit pq ele vai para um formulário-->
+               
+          </form>
+     </section>
 </body>
 </html>
