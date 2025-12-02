@@ -42,11 +42,43 @@
                </label> <br>
                </fieldset>
 
+               <fieldset>
+                    <legend>Perfil</legend>
+
+                    <p>Gênero:</p>
+                    <input type="radio" name="userGender" id="userGender" value="Feminino"> <!--temos que passar o value-->
+                    <label for="userGender">Feminino</label>
+
+                    
+                    <input type="radio" name="userGender" id="userGender" value="Masculino">
+                    <label for="userGender">Masculino</label>
+
+                    
+                    <input type="radio" name="userGender" id="userGender" value="notInformed">
+                    <label for="userGender">Prefiro não Informar </label> 
+                    <br>
+                    
+                    <label for="maritalStatus">Estado Civil:</label>
+                    <select name="maritalStatus" id="">
+                         <option value="notInformed">Selecione</option>
+                         <option value="Casado">Casado</option>
+                         <option value="Solteiro">Solteiro</option>
+                         <option value="Divorciado">Divorciado</option>
+                         <option value="Uniao Estavel">União Estável</option>
 
 
-               <button type="submit">Enviar</button> <!--submit pq ele vai para um formulário-->
+
+
+                    </select>
+               </fieldset>
+
+
+
+               
                
           </form>
+
+               <button type="submit">Enviar</button> <!--submit pq ele vai para um formulário-->
      </section>
 </body>
 </html>
