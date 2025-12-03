@@ -12,7 +12,7 @@
      </header>
      <section>
           <form action="" method="get"> <!--get fica visivel na url, e post fica no back end-->
-               <fieldset> <!--agrupa-->
+              <fieldset> <!--agrupa-->
                     <!--DADOS PESSOAIS-->
                     <legend>Dados Pessoais</legend> <!--legenda-->
                
@@ -40,7 +40,7 @@
                <label for="userImage"> Upload de Foto
                <input type="file" name="userImage" id="" accept="image/*">
                </label> <br>
-               </fieldset>
+               </fieldset> 
 
                <fieldset>
                     <legend>Perfil</legend>
@@ -104,7 +104,23 @@
                     </label>
 
                </fieldset>
-               
+          
+               <fieldset>
+                    <legend>Hábitos</legend>
+                    <p>Redes Sociais:</p>
+                    <input type="checkbox" name="social" id="" value="instagram">
+                    <label for="social">Instagram</label> 
+                    <br>
+                    <input type="checkbox" name="social" id="" value="facebook">
+                    <label for="social">Facebook</label> 
+                    <br>
+                    <input type="checkbox" name="social" id="" value="linkedin">
+                    <label for="social">Linkedin</label> 
+                    <br>
+                    <input type="checkbox" name="social" id="" value="x">
+                    <label for="social">X</label> 
+
+               </fieldset>
           </form>
 
                <button type="submit">Enviar</button> <!--submit pq ele vai para um formulário-->
