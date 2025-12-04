@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="culturama-favico.png" type="image/png">
+     <link rel="shortcut icon" href="culturama-favico.png" type="image/png">
      <link rel="stylesheet" href="css/style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,7 @@
      <title>Culturama formulario</title>
 </head>
 <body>
+     <main>
      <header>
           <img src="img/logo-culturama.png" alt="logo-culturama">
           <h1>Pesquisa Online</h1>
@@ -21,30 +23,30 @@
                     <!--DADOS PESSOAIS-->
                <legend>Dados Pessoais</legend> <!--legenda-->
                
-                    <label for="name">Nome e Sobrenome:
+                    <label for="name">Nome e Sobrenome:</label>
                     <input type="text" name="userName" id="name" required>
-                    </label> <br>
+                     <br>
                
 
-                    <label for="age">Idade:
+                    <label for="age">Idade:</label>
                     <input type="number" name="userAge" id="age"  min="12" max="100" required>
-                    </label> <br>
+                     <br>
 
-                    <label for="birthDate">Data de Nascimento:
+                    <label for="birthDate">Data de Nascimento:</label>
                     <input type="date" name="userBirthDate" id="birthDate">
-                    </label> <br>
+                     <br>
 
-                    <label for="email">Email:
+                    <label for="email">Email:</label>
                     <input type="email" name="userEmail" id="email" required>
-                    </label> <br>
+                     <br>
 
-                    <label for="phoneNumber">Telefone:
+                    <label for="phoneNumber">Telefone:</label>
                     <input type="tel" name="userPhoneNumber" id="phoneNumber" pattern="[0-9]{11}" placeholder="11111111111"> <!--[quais numeros sao aceitos] {quantidade de numeros}-->
-                    </label> <br>
+                     <br>
 
-                    <label for="image"> Upload de Foto
+                    <label for="image"> Upload de Foto</label>
                     <input type="file" name="userImage" id="image" accept="image/*">
-                    </label> <br>
+                     <br>
               </fieldset> 
 
                <fieldset>
@@ -104,10 +106,8 @@
                     </select>
                     </label>
 
-                    <label for="city">Cidade:
+                    <label for="city">Cidade:</label>
                          <input type="text" name="userCity" id="city" >
-                    </label>
-
                </fieldset>
           
                <fieldset>
@@ -178,11 +178,9 @@
                
                <button type="submit">Enviar</button> <!--submit pq ele vai para um formulário--> 
                <button type="reset">Limpar</button>
-          </form>
-          
-
-               
+          </form>         
      </section>
-     <!--teste00000001-->
+     </main>
+     
 </body>
-</html>
+</html> 
