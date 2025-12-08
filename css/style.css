@@ -55,6 +55,7 @@ input, select, textarea{
 textarea{
      min-height: 100px;
 }
+/*seleciona input*/
 input[type= "radio"],
 input[type ="checkbox"]{
      width: auto; /*sega largura natural dele*/
