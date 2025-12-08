@@ -64,3 +64,14 @@ input[type="color"]{
      width: 40px;
      padding: 0 5px;
 }
+
+input:invalid, select:invalid, textarea:invalid{
+     border-color:red;
+}
+
+input:valid, select:valid, textarea:valid{
+     border-color:green;
+}
+p{
+     margin-bottom: 15px;
+}
