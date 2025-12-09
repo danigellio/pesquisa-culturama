@@ -41,7 +41,8 @@
                      <br>
 
                     <label for="phoneNumber">Telefone:</label>
-                    <input type="tel" name="userPhoneNumber" id="phoneNumber" pattern="[0-9]{11}" placeholder="11111111111"> <!--[quais numeros sao aceitos] {quantidade de numeros}-->
+                    <input type="tel" name="userPhoneNumber" id="phoneNumber" pattern="[0-9]{11}" placeholder="11111111111" aria-describedby="phoneHelp"> <!--[quais numeros sao aceitos] {quantidade de numeros}-->
+                    <small id="phoneHelp">Preencha com 11 dígitos no formato: DDD e números sem espaços ou hífen.</small>
                      <br>
 
                     <label for="image"> Upload de Foto</label>

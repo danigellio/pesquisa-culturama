@@ -68,7 +68,18 @@ input[type="color"]{
      width: 40px;
      padding: 0 5px;
 }
+label{
+     margin-bottom: 5px;
+     display: inline-block;
+}
+input[type="tel"]{
+     margin-bottom: 0;
 
+}
+small{
+     display: inline-block;
+     margin-bottom: 20px;
+}
 input:invalid, select:invalid, textarea:invalid{
      border-color:red;
 }
